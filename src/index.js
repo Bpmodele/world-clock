@@ -40,7 +40,9 @@ function updateCity(event) {
             "h:mm:ss [<small>]A[</small>]"
           )}</div>
         </div>
-      </div>`;
+      </div>
+      <a href="/">Back to cities</a>
+      `;
 }
 updateTime();
 setInterval(updateTime, 1000);
